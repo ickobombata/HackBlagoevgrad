@@ -1,13 +1,11 @@
-/* this code is written by geobruce
-for more info check my site http://xprobe.net
-*/
-#include <Servo.h> // include Servo library 
 
-Servo horizontal; // horizontal servo
-int servoh = 90; // stand horizontal servo
+#include <Servo.h> 
 
-Servo vertical; // vertical servo 
-int servov = 90; // stand vertical servo
+Servo horizontal; 
+int servoh = 90; 
+
+Servo vertical;
+int servov = 90; 
 
 // LDR pin connections
 // name = analogpin;
